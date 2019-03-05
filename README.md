@@ -28,10 +28,20 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### 开启本地serve
+```
+aoyideMacBook-Pro:php-skills-tree aoyi$ bundle exec jekyll serve
+Configuration file: /Users/aoyi/Documents/workspace/github_pages/php-skills-tree/_config.yml
+            Source: /Users/aoyi/Documents/workspace/github_pages/php-skills-tree
+       Destination: /Users/aoyi/Documents/workspace/github_pages/php-skills-tree/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+                    done in 1.293 seconds.
+ Auto-regeneration: enabled for '/Users/aoyi/Documents/workspace/github_pages/php-skills-tree'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+[2019-03-05 17:26:22] ERROR `/favicon.ico' not found.
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wolfgang0/php-skills-tree/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
